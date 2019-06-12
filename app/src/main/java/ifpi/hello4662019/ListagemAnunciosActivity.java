@@ -56,7 +56,7 @@ public class ListagemAnunciosActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
                     for (DocumentSnapshot documento: task.getResult()){
                         Anuncio anuncio = documento.toObject(Anuncio.class);
-                        anuncios.add(anunci
+                        anuncios.add(anuncio);
                     }
                 }
             }
