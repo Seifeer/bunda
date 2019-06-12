@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import ifpi.hello4662019.adapters.ListagemAnunciosAdapter;
 import ifpi.hello4662019.modelos.Anuncio;
 
 public class ListagemAnunciosActivity extends AppCompatActivity {
+
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     private RecyclerView rvAnuncios;
 
