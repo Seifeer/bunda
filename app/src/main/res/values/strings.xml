@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hello4662019</string>
+    <string name="nome">Escolha</string>
+
+    <string-array name="tartaguras">
+        <item>Leonardo</item>
+        <item>Michelangelo</item>
+        <item>Donatello</item>
+        <item>Raphael</item>
+    </string-array>
+    <string name="title_activity_detalhe_anuncio">DetalheAnuncioActivity</string>
+
+</resources>
